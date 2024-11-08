@@ -1,0 +1,91 @@
+Team Name:
+
+JK
+
+Team member name:
+
+Jingbo Wang, Chengkai Yang 
+
+## App Purpose ##
+
+The Smart Recipe Recommender is designed to help users make the most out of their available ingredients by recommending recipes based on what’s already in their fridge or pantry. Users can enter the ingredients they currently have, and the app will suggest recipes that can be made with those ingredients, along with personalized recipe recommendations based on the user's preferences and dietary restrictions. The app aims to reduce food waste, save time in meal planning, and provide a customized cooking experience.
+
+
+## Main Features ## 
+
+1. Ingredient-Based Recipe Recommendations: 
+	- Users input the ingredients they have, and the app suggests a list of recipes that match those ingredients.
+
+2. Personalized Preferences: 
+	- Users can set personal preferences, dietary restrictions, and favorite cuisines to receive tailored recipe suggestions.
+
+3. Step-by-Step Cooking Instructions: 
+	- Each recipe comes with detailed steps, making it easy for users to follow along while cooking.
+
+4. Offline Functionality: 
+	- Recipes and user data are cached locally, allowing users to browse previously viewed recipes even without an internet connection.
+
+5. Push Notifications: 
+	- The app sends notifications to remind users of new recipes that fit their preferences (or seasonal ingredients).
+
+6. Usage Analytics: 
+	- Firebase Analytics is used to track user interactions, helping refine recipe recommendations and improve the app based on user behavior.
+
+
+## Target Audience ##
+
+  - Busy Individuals: 
+	People with limited time who want to find recipes quickly based on what they already have.
+
+  - Home Cooks and Food Enthusiasts: 
+	Those looking to explore new recipes without the need for extensive grocery shopping.
+
+  - People with Dietary Restrictions: 
+	Users who need to filter recipes based on allergies, dietary preferences (e.g., vegetarian, vegan), or specific health goals.
+
+
+## Technical Specifications ##
+  - Frontend:
+	- Jetpack Compose: For building a dynamic and modern user interface for recipe recommendations and detailed recipe views.
+  - Backend:
+	- Firebase Authentication: Provides a secure and easy way for users to create accounts and log in.
+	- Room Database: For offline storage of user preferences, ingredient lists, and cached recipes.
+	- Spoonacular API (or similar): To fetch recipe data based on the user's inputted ingredients and preferences.
+	- Firebase Analytics: To track user behavior, preferences, and interactions, 	- allowing for improved recommendations.
+  - Other:
+	- Push Notifications: Firebase Cloud Messaging to notify users about new recipes or relevant suggestions.
+
+
+## Initial Wireframes and UI Mockups ##
+The initial design for the Smart Recipe Recommender will include:
+
+	1. Home Screen: Displays recent recipes, a search bar for ingredients, and options for personalized preferences.
+	2. Ingredient Input Screen: Where users enter their available ingredients and initiate recipe search.
+	3. Recipe Detail Screen: Shows selected recipes with detailed instructions, ingredients list, and the option to save or mark as favorite.
+	4. Preferences and Profile: Allows users to set dietary preferences, update ingredients, and view saved recipes.
+
+Mockups will be designed using Figma to provide a clear, interactive visualization of the user journey and interface.
+
+## Potential Expandable Features ##
+
+1. Meal Planning and Shopping List: Allow users to plan meals in advance and generate a shopping list for missing ingredients needed for upcoming recipes.
+
+2. Voice Command Support: Integrate voice command functionality for hands-free recipe search and navigation while cooking.
+
+3. Recipe Sharing and Social Features: Enable users to share their favorite recipes with friends or on social media, or explore recipes shared by others.
+
+4. Smart Ingredient Suggestions: Based on commonly used ingredients, the app could suggest additional items to buy to expand recipe options.
+
+5. Integration with Health and Fitness Apps: Sync recipe nutritional information with health apps to help users track calories, macros, and dietary goals.
+
+6. Recipe Rating and Feedback System: Allow users to rate recipes and give feedback, which could improve recommendations and help other users find popular recipes.
+
+7. Seasonal and Trending Recipe Suggestions: Offer recipe suggestions based on seasonal ingredients or trending cuisines.
+
+8. Augmented Reality (AR) Cooking Guide: Use AR to visually display the cooking steps and ingredient usage, enhancing the cooking experience.
+
+9. Food Expiration Notifications: Track ingredient expiration dates to notify users about soon-to-expire items, reducing food waste.
+
+10. In-App Grocery Ordering: Partner with grocery delivery services to allow users to order missing ingredients directly from the app.
+
+
