@@ -51,7 +51,7 @@ The Smart Recipe Recommender is designed to help users make the most out of thei
 	- Firebase Authentication: Provides a secure and easy way for users to create accounts and log in.
 	- Room Database: For offline storage of user preferences, ingredient lists, and cached recipes.
 	- Spoonacular API (or similar): To fetch recipe data based on the user's inputted ingredients and preferences.
-	- Firebase Analytics: To track user behavior, preferences, and interactions, 	- allowing for improved recommendations.
+	- Firebase Analytics: To track user behavior, preferences, and interactions, allowing for improved recommendations.
   - Other:
 	- Push Notifications: Firebase Cloud Messaging to notify users about new recipes or relevant suggestions.
 
